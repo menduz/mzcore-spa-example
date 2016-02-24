@@ -14,7 +14,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 define(["require", "exports"], function (require, exports) {
     "use strict";
-    mz.alias('views', module.getPath('./views/'));
+    mz.alias('views', 'views');
     var App = (function (_super) {
         __extends(App, _super);
         function App() {
