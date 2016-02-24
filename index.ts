@@ -1,6 +1,6 @@
 /// <reference path="mz/mz.d.ts" />
 
-mz.alias('views', module.getPath('./views/'));
+mz.alias('views', 'views');
 
 @App.Template('@views/index.xml')
 class App extends mz.app.PageCoordinator {
