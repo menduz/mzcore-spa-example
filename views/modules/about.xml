@@ -1,0 +1,19 @@
+<div>
+    File list:
+    <blockquote style="text-align: left">
+        <mz-repeat list="{this.fileTree}" tag="ul">
+            <file-entry scope="{scope}" />
+        </mz-repeat>
+        
+        <!-- making a tree has never been so easy -->
+    </blockquote>
+    <div>
+        Source of this page:
+    </div>
+    
+    <h3>about.xml (View)</h3>
+    <pre lang="xml" syntax-from="views/modules/about.xml" />
+    
+    <h3>about.ts (Controller)</h3>
+    <pre lang="typescript" syntax-from="modules/about.ts" />
+</div>

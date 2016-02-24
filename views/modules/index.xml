@@ -1,0 +1,8 @@
+<div> 
+    <h1 class="cover-heading">SPA example</h1>
+    <p class="lead">You can navigate using the upper links, or you can just</p>
+    <p class="lead">
+        <a href="https://github.com/mendux/mzcore-spa-example" class="btn btn-lg btn-default">view the code on GitHub</a>
+    </p>
+    <p class="lead">This project template was built with Typescript and VSCode</p>
+</div>

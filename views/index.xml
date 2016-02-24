@@ -1,0 +1,35 @@
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+        <div class="cover-container">
+            <div class="masthead clearfix">
+                <div class="inner">
+                    <h3 class="masthead-brand">mzcore SPA</h3>
+                    <nav>
+                        <ul class="nav masthead-nav">
+                            <li role="presentation" class="{ active: this.actualPageName == 'index' }">
+                                <a href="#">Home</a>
+                            </li>
+                            <li role="presentation" class="{ active: this.actualPageName == 'login' }">
+                                <a href="#account">Account</a>
+                            </li>
+                            <li role="presentation" class="{ active: this.actualPageName == 'about' }">
+                                <a href="#about">About</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div visible="{this.loadingPage}">
+                <h1 class="cover-heading">Loading...</h1>
+            </div>
+            <content class="inner cover"  visible="{!this.loadingPage}">
+                <!-- here goes the content -->
+            </content>
+            <div class="mastfoot">
+                <div class="inner">
+                    <p>Sample <a href="http://mzcore.menduz.com">mzcore</a> SPA page. Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
