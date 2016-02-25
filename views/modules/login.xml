@@ -2,7 +2,7 @@
     <style>
     <![CDATA[
 body {
-  background: linear-gradient(#5636A2, #0F0F33);
+  background-color: #5636A2;
 }
 
 .site-wrapper {

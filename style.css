@@ -27,11 +27,11 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
 }
 body {
   color: #fff;
   text-align: center;
+  background: #000 linear-gradient(transparent, #0F0F33);
   transition: background .3s ease;
 }
 

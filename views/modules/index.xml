@@ -3,7 +3,7 @@
     <p class="lead">You can navigate using the upper links, or you can just</p>
     <p class="lead">
         <a href="https://github.com/menduz/mzcore-spa-example" class="btn btn-lg btn-default">view the code on GitHub</a>
-        <span> </span><a href="https://github.com/menduz/mzcore-spa-example/archive/gh-pages.zip" title="Download" class="btn btn-lg btn-primary">Download as .zip</a>
+        &#160;<a href="https://github.com/menduz/mzcore-spa-example/archive/gh-pages.zip" title="Download" class="btn btn-lg btn-primary">Download as .zip</a>
     </p>
     <p class="lead">This project template was built with Typescript and VSCode. 
       <div>
