@@ -10,7 +10,7 @@
                                 <a href="#">Home</a>
                             </li>
                             <li role="presentation" class="{ active: this.actualPageName == 'login' }">
-                                <a href="#account">Account</a>
+                                <a href="#account">Login example</a>
                             </li>
                             <li role="presentation" class="{ active: this.actualPageName == 'about' }">
                                 <a href="#about">About</a>
